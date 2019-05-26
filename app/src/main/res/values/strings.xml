@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">MojPiniadz</string>
     <string name="about">O programie</string>
+    <string name="more">Dowiedz się więcej</string>
+    <string name="about_program">O programie</string>
+    <string name="edit">Edytuj dane użytkownika</string>
+    <string name="personal_data">Dane użytkownika </string>
+    <string name="edit_PIN">Dodaj/ usuń kod PIN</string>
+    <string name="set_PIN">Ustaw kod PIN</string>
+    <string name="meneger">Zarządzaj kategoriami wydatków i zysków</string>
+    <string name="categories">Zarządzaj kategoriami </string>
+    <string name="change_value">Zmień walutę</string>
+    <string name="valutes">Waluty</string>
 </resources>
