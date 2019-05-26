@@ -4,7 +4,7 @@
 
     <item
         android:title="Opcje"
-        android:id="@+id/action_opcje"/>
+        android:id="@+id/action_options"/>
 
     <item
         android:title="O programie"
