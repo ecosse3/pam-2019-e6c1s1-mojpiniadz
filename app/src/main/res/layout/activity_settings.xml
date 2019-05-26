@@ -8,15 +8,16 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/waluty"
+        android:id="@+id/currency"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:clickable="true"
+        android:onClick="click"
         android:focusable="true"
-        android:text="@string/valutes"
+        android:text="@string/currency"
         android:textColor="#F80A0909"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -30,7 +31,7 @@
         android:text="@string/change_value" />
 
     <TextView
-        android:id="@+id/Kategorie"
+        android:id="@+id/categories"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -40,11 +41,12 @@
         android:focusable="true"
         android:text="@string/categories"
         android:textColor="#F80A0909"
+        android:onClick="click"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/kategorie_opis"
+        android:id="@+id/categories_des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -52,7 +54,7 @@
         android:text="@string/meneger" />
 
     <TextView
-        android:id="@+id/Ustaw_kod_PIN"
+        android:id="@+id/set_PIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -60,13 +62,14 @@
         android:layout_marginRight="20dp"
         android:clickable="true"
         android:focusable="true"
+        android:onClick="click"
         android:text="@string/set_PIN"
         android:textColor="#F80A0909"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/ustaw_kod_pin_opis"
+        android:id="@+id/set_PIN_des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -74,7 +77,7 @@
         android:text="@string/edit_PIN" />
 
     <TextView
-        android:id="@+id/Dane_osobowe"
+        android:id="@+id/personal_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -84,12 +87,13 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:text="@string/personal_data"
+        android:onClick="click"
         android:textColor="#F80A0909"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/dane_osobowe_opis"
+        android:id="@+id/personal_data_des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -97,7 +101,7 @@
         android:text="@string/edit" />
 
     <TextView
-        android:id="@+id/O_programie"
+        android:id="@+id/about_prog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -105,6 +109,7 @@
         android:layout_marginRight="20dp"
         android:clickable="true"
         android:focusable="true"
+        android:onClick="click"
         android:focusableInTouchMode="true"
         android:text="@string/about_program"
         android:textColor="#F80A0909"
@@ -112,7 +117,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/o_programie_opis"
+        android:id="@+id/about_prog_des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"

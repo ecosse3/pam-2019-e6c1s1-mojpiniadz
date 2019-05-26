@@ -10,5 +10,5 @@
     <string name="meneger">Zarządzaj kategoriami wydatków i zysków</string>
     <string name="categories">Zarządzaj kategoriami </string>
     <string name="change_value">Zmień walutę</string>
-    <string name="valutes">Waluty</string>
+    <string name="currency">Waluty</string>
 </resources>
