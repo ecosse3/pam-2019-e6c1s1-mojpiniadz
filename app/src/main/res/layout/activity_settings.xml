@@ -2,21 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="30dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
     android:layout_marginRight="20dp"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:id="@+id/currency_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="click">
     <TextView
         android:id="@+id/currency"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:clickable="true"
-        android:onClick="click"
-        android:focusable="true"
         android:text="@string/currency"
         android:textColor="#F80A0909"
         android:textSize="20sp"
@@ -29,7 +34,16 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/change_value" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/categories_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="click">
     <TextView
         android:id="@+id/categories"
         android:layout_width="match_parent"
@@ -37,11 +51,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:clickable="true"
-        android:focusable="true"
         android:text="@string/categories"
         android:textColor="#F80A0909"
-        android:onClick="click"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -52,7 +63,17 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/meneger" />
+    </LinearLayout>
 
+
+    <LinearLayout
+        android:id="@+id/set_pin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="click">
     <TextView
         android:id="@+id/set_PIN"
         android:layout_width="match_parent"
@@ -60,9 +81,6 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:onClick="click"
         android:text="@string/set_PIN"
         android:textColor="#F80A0909"
         android:textSize="20sp"
@@ -75,7 +93,16 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/edit_PIN" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/personal_data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="click">
     <TextView
         android:id="@+id/personal_data"
         android:layout_width="match_parent"
@@ -83,11 +110,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
         android:text="@string/personal_data"
-        android:onClick="click"
         android:textColor="#F80A0909"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -99,6 +122,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/edit" />
+    </LinearLayout>
 
 
 </LinearLayout>
