@@ -21,7 +21,6 @@ public class SettingsActivity extends AppCompatActivity {
         categories=findViewById(R.id.categories);
         set_PIN=findViewById(R.id.set_PIN);
         personal_data=findViewById(R.id.personal_data);
-        about_prog=findViewById(R.id.about_prog);
 
         getSupportActionBar().setTitle("Ustawienia");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -40,9 +39,6 @@ public class SettingsActivity extends AppCompatActivity {
                 break;
             case R.id.personal_data: // R.id.textView2
                 intent = new Intent(this, PersonalDataActivity.class);
-                break;
-            case R.id.about_prog: // R.id.textView3
-                intent = new Intent(this, AboutProgActivity.class);
                 break;
         }
         startActivity(intent);

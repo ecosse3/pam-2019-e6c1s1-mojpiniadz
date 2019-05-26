@@ -100,27 +100,5 @@
         android:layout_marginRight="20dp"
         android:text="@string/edit" />
 
-    <TextView
-        android:id="@+id/about_prog"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="20dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:onClick="click"
-        android:focusableInTouchMode="true"
-        android:text="@string/about_program"
-        android:textColor="#F80A0909"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/about_prog_des"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/more" />
 </LinearLayout>

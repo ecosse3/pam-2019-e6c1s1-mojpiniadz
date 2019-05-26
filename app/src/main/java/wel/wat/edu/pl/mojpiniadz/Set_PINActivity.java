@@ -10,5 +10,8 @@ public class Set_PINActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_set__pin);
+
+        getSupportActionBar().setTitle("Ustaw kod PIN");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

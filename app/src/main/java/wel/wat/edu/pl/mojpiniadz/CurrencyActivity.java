@@ -11,6 +11,7 @@ public class CurrencyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_currency);
 
-
+        getSupportActionBar().setTitle("Waluty");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -9,11 +9,18 @@
         android:roundIcon="@mipmap/ic_apk_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutProgActivity"></activity>
-        <activity android:name=".PersonalDataActivity" />
-        <activity android:name=".Set_PINActivity" />
-        <activity android:name=".CategoryActivity" />
-        <activity android:name=".CurrencyActivity" />
+        <activity
+            android:name=".PersonalDataActivity"
+            android:parentActivityName=".SettingsActivity"/>
+        <activity
+            android:name=".Set_PINActivity"
+            android:parentActivityName=".SettingsActivity"/>
+        <activity
+            android:name=".CategoryActivity"
+            android:parentActivityName=".SettingsActivity"/>
+        <activity
+            android:name=".CurrencyActivity"
+            android:parentActivityName=".SettingsActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +34,8 @@
         <activity
             android:name=".AboutActivity"
             android:parentActivityName=".MainActivity" />
+
+
     </application>
 
 </manifest>

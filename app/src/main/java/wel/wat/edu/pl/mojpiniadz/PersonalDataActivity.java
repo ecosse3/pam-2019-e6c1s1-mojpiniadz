@@ -10,5 +10,8 @@ public class PersonalDataActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_data);
+
+        getSupportActionBar().setTitle("Dane użytkownika");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
