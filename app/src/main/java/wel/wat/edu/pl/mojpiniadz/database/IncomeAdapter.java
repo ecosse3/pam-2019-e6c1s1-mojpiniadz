@@ -42,7 +42,7 @@ public class IncomeAdapter extends RecyclerView.Adapter<IncomeAdapter.ViewHolder
      * W poprzednich rozwiązaniach (lista książek i komentarzy)
      * recenzje były przekazywane przez konstruktor.
      *
-     * @param reviews lista recenzji
+     * @param incomes lista recenzji
      */
     public void setIncomes(List<Income> incomes) {
         this.incomes = incomes;
@@ -94,11 +94,10 @@ public class IncomeAdapter extends RecyclerView.Adapter<IncomeAdapter.ViewHolder
         public ViewHolder(View itemView) {
             super(itemView);
             //wyszukanie widgetów
-            value = itemView.findViewById(R.id.value);
-            date = itemView.findViewById(R.id.date);
-            description = itemView.findViewById(R.id.description);
-            //TODO dodać wyświetlanie ID
-            id = itemView.findViewById(R.id.id);
+            value = itemView.findViewById(R.id.valueRow);
+            date = itemView.findViewById(R.id.dateRow);
+            description = itemView.findViewById(R.id.descriptionRow);
+            id = itemView.findViewById(R.id.idRow);
         }
     }
 }

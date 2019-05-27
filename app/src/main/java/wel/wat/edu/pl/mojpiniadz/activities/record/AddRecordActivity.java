@@ -1,4 +1,4 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz.activities.record;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;

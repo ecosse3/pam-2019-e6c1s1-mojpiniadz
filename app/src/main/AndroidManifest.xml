@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_apk_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.AddRecordActivity"></activity>
+        <activity android:name=".activities.record.AddRecordActivity"></activity>
         <activity
             android:name=".activities.PersonalDataActivity"
             android:parentActivityName=".activities.SettingsActivity" />

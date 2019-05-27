@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import wel.wat.edu.pl.mojpiniadz.R;
-import wel.wat.edu.pl.mojpiniadz.activities.AddRecordActivity;
+import wel.wat.edu.pl.mojpiniadz.activities.record.AddRecordActivity;
 
 
 public class zarobkiFragment extends Fragment {
