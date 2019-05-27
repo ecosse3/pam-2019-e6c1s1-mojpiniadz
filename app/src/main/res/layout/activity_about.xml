@@ -22,7 +22,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"
-        android:text="Jest to program, który został stworzony aby pomóc Ci zorganizować swoje wydatki. Umożliwia on analizę przychodów, wydatkóworaz pozwala zobrazować wyniki naszych finansowych działań w kilku trybach: dziennym, tygodniowym, miesięcznym i rocznym."
+        android:text="Jest to program, który został stworzony aby pomóc Ci zorganizować swoje wydatkiFragment. Umożliwia on analizę przychodów, wydatkóworaz pozwala zobrazować wyniki naszych finansowych działań w kilku trybach: dziennym, tygodniowym, miesięcznym i rocznym."
         android:textColor="#141313" />
 
     <TextView
