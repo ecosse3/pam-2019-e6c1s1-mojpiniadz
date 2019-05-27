@@ -19,13 +19,13 @@ public class FragmentCollection extends FragmentPagerAdapter {
     public Fragment getItem(int position){
         switch (position){
             case 0:
-                return new zarobkiFragment();
-            case 1:
                 return new wydatkiFragment();
+            case 1:
+                return new zarobkiFragment();
             case 2:
                 return new podsumowanieFragment();
                 default:
-             return new zarobkiFragment();
+             return new wydatkiFragment();
         }
     }
 
