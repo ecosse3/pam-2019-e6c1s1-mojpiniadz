@@ -1,19 +1,18 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import wel.wat.edu.pl.mojpiniadz.R;
-
-public class PersonalDataActivity extends AppCompatActivity {
+public class CategoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_personal_data);
+        setContentView(R.layout.activity_category);
 
-        getSupportActionBar().setTitle("Dane użytkownika");
+        getSupportActionBar().setTitle("Kategorie");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 }

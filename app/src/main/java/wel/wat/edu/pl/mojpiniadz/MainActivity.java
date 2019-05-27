@@ -1,22 +1,28 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import wel.wat.edu.pl.mojpiniadz.fragments.FragmentCollection;
-import wel.wat.edu.pl.mojpiniadz.R;
-import wel.wat.edu.pl.mojpiniadz.fragments.podsumowanieFragment;
-import wel.wat.edu.pl.mojpiniadz.fragments.wydatkiFragment;
-import wel.wat.edu.pl.mojpiniadz.fragments.zarobkiFragment;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class MainActivity extends AppCompatActivity {

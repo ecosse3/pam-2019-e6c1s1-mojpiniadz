@@ -1,19 +1,17 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import wel.wat.edu.pl.mojpiniadz.R;
-
-public class CurrencyActivity extends AppCompatActivity {
+public class Set_PINActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_currency);
+        setContentView(R.layout.activity_set__pin);
 
-        getSupportActionBar().setTitle("Waluty");
+        getSupportActionBar().setTitle("Ustaw kod PIN");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

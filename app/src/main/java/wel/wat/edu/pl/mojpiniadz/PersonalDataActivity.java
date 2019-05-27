@@ -1,19 +1,17 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import wel.wat.edu.pl.mojpiniadz.R;
-
-public class Set_PINActivity extends AppCompatActivity {
+public class PersonalDataActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_set__pin);
+        setContentView(R.layout.activity_personal_data);
 
-        getSupportActionBar().setTitle("Ustaw kod PIN");
+        getSupportActionBar().setTitle("Dane użytkownika");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -1,10 +1,8 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import wel.wat.edu.pl.mojpiniadz.R;
 
 public class AboutActivity extends AppCompatActivity {
 

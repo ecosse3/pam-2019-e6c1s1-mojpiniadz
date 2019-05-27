@@ -13,7 +13,6 @@
     <string name="currency">Waluty</string>
     <string name="incomes">Zarobki</string>
     <string name="expanses">Wydatki</string>
-    <string name="category">Kategoria</string>
 
     <string name="value">Kwota</string>
     <string name="description">Opis</string>

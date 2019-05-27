@@ -1,20 +1,17 @@
-package wel.wat.edu.pl.mojpiniadz.activities;
+package wel.wat.edu.pl.mojpiniadz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import wel.wat.edu.pl.mojpiniadz.R;
-
-public class CategoryActivity extends AppCompatActivity {
+public class CurrencyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category);
+        setContentView(R.layout.activity_currency);
 
-        getSupportActionBar().setTitle("Kategorie");
+        getSupportActionBar().setTitle("Waluty");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 }
