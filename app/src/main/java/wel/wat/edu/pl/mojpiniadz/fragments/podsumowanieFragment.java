@@ -1,4 +1,4 @@
-package wel.wat.edu.pl.mojpiniadz;
+package wel.wat.edu.pl.mojpiniadz.fragments;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -21,6 +21,8 @@ import com.github.mikephil.charting.formatter.IValueFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
+
+import wel.wat.edu.pl.mojpiniadz.R;
 
 
 public class podsumowanieFragment extends Fragment {
