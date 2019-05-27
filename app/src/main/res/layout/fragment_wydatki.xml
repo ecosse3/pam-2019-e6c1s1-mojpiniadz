@@ -20,6 +20,6 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_add"
         app:backgroundTint="#2196F3"
-        android:onClick="addExpenses"/>
+        android:clickable="true"/>
 
 </FrameLayout>

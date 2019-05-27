@@ -97,17 +97,4 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    public void addExpenses(View view) {
-        FloatingActionButton floatingActionButton =
-                (FloatingActionButton) findViewById(R.id.add_expense_fab);
-
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent = new Intent(MainActivity.this, AddExpensesActivity.class);
-                startActivity(intent);
-            }
-        });
-    }
 }
