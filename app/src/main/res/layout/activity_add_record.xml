@@ -35,15 +35,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:baselineAligned="false"
         android:orientation="horizontal"
-        tools:context=".AddRecordActivity"
-        android:baselineAligned="false">
+        tools:context=".AddRecordActivity">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/date"
-            android:layout_weight="1.0">
+            android:layout_weight="1.0"
+            android:hint="@string/date">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/date"
@@ -56,8 +56,8 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/time"
-            android:layout_weight="1.0">
+            android:layout_weight="1.0"
+            android:hint="@string/time">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/time"
@@ -74,18 +74,28 @@
         android:layout_gravity="center"
         android:orientation="horizontal">
 
-        <RadioButton
+        <RadioGroup
+            android:id="@+id/radioType"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1.0"
-            android:duplicateParentState="false"
-            android:text="@string/expanses" />
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1.0"
-            android:text="@string/incomes" />
+            <RadioButton
+                android:id="@+id/radioExpanse"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:checked="false"
+                android:duplicateParentState="false"
+                android:text="@string/expanses" />
+
+            <RadioButton
+                android:id="@+id/radioIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:text="@string/incomes" />
+
+        </RadioGroup>
 
     </LinearLayout>
 
