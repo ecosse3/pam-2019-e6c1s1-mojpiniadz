@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import static android.provider.Settings.System.getString;
 
 
 public class FragmentCollection extends FragmentPagerAdapter {
@@ -33,4 +34,6 @@ public class FragmentCollection extends FragmentPagerAdapter {
     public int getCount(){
         return 3;
     }
+
+
 }
