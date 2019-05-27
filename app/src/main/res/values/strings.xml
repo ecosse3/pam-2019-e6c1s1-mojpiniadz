@@ -11,6 +11,14 @@
     <string name="categories">Zarządzaj kategoriami </string>
     <string name="change_value">Zmień walutę</string>
     <string name="currency">Waluty</string>
+    <string name="incomes">Zarobki</string>
+    <string name="expanses">Wydatki</string>
+
+    <string name="value">Kwota</string>
+    <string name="description">Opis</string>
+    <string name="date">Data</string>
+    <string name="time">Czas</string>
+    <string name="add">Dodaj</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
