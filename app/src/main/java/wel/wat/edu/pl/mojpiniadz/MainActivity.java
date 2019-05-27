@@ -22,7 +22,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -96,4 +96,18 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     };
+
+    public void addExpenses(View view) {
+        FloatingActionButton floatingActionButton =
+                (FloatingActionButton) findViewById(R.id.add_expense_fab);
+
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent = new Intent(MainActivity.this, AddExpensesActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
 }
