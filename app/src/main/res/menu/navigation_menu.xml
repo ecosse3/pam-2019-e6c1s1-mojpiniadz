@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:title="zarobki"
-        android:id="@+id/action_zarobki"
-        android:icon="@drawable/ic_zarobki"/>
-
-    <item
-        android:title="wydatki"
+        android:title="Wydatki"
         android:icon="@drawable/ic_wydatki"
         android:id="@+id/action_wydatki"/>
 
+    <item
+        android:title="Zarobki"
+        android:id="@+id/action_zarobki"
+        android:icon="@drawable/ic_zarobki"/>
 
-    <item android:title="podsumowanie"
+
+    <item android:title="Podsumowanie"
           android:id="@+id/action_podsumowanie"
           android:icon="@drawable/ic_podsumowanie"/>
 
