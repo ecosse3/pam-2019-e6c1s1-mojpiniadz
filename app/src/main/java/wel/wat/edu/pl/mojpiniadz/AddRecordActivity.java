@@ -4,13 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AddExpensesActivity extends AppCompatActivity {
+public class AddRecordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_expenses);
+        setContentView(R.layout.activity_add_record);
 
-        getSupportActionBar().setTitle("Dodaj wydatek");
+        getSupportActionBar().setTitle("Dodaj nowy rekord");
     }
 }
