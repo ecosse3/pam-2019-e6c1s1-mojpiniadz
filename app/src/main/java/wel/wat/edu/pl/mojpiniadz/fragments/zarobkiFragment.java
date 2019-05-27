@@ -1,4 +1,4 @@
-package wel.wat.edu.pl.mojpiniadz;
+package wel.wat.edu.pl.mojpiniadz.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,25 +11,21 @@ import android.view.ViewGroup;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-<<<<<<< HEAD:app/src/main/java/wel/wat/edu/pl/mojpiniadz/fragments/wydatkiFragment.java
 import wel.wat.edu.pl.mojpiniadz.R;
 import wel.wat.edu.pl.mojpiniadz.activities.record.AddRecordActivity;
 
-=======
->>>>>>> master:app/src/main/java/wel/wat/edu/pl/mojpiniadz/wydatkiFragment.java
 
-public class wydatkiFragment extends Fragment {
+public class zarobkiFragment extends Fragment {
 
-    public wydatkiFragment() {
-        // Required empty public constructor
+    public zarobkiFragment(){
+
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_wydatki, container, false);
+        View view = inflater.inflate(R.layout.fragment_zarobki, container, false);
 
         FloatingActionButton myFab = (FloatingActionButton) view.findViewById(R.id.add_record_fab);
         myFab.setOnClickListener(new View.OnClickListener() {

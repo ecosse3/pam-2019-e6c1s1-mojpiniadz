@@ -1,14 +1,13 @@
-package wel.wat.edu.pl.mojpiniadz;
+package wel.wat.edu.pl.mojpiniadz.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import wel.wat.edu.pl.mojpiniadz.R;
 
 
 public class SettingsActivity extends AppCompatActivity {
