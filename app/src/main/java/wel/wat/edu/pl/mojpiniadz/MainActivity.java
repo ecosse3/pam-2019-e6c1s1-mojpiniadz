@@ -37,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
         //viewpager=findViewById(R.id.pager);
         //adapter=new FragmentCollection(getSupportFragmentManager());
         //viewpager.setAdapter(adapter);
-
+        FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction1.replace(R.id.frame, new wydatkiFragment());
+        fragmentTransaction1.commit();
 
 
 
