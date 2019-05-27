@@ -1,8 +1,10 @@
-package wel.wat.edu.pl.mojpiniadz;
+package wel.wat.edu.pl.mojpiniadz.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import wel.wat.edu.pl.mojpiniadz.R;
 
 public class AddRecordActivity extends AppCompatActivity {
 

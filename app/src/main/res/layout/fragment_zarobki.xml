@@ -4,13 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".zarobkiFragment">
+    tools:context=".fragments.zarobkiFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/value"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="fragment zarobki" />
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/id"
+        android:layout_toLeftOf="@+id/id"
+        android:layout_toEndOf="@+id/image"
+        android:layout_toRightOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toStartOf="@+id/id"
+        android:layout_toLeftOf="@+id/id"
+        android:layout_toEndOf="@+id/image"
+        android:layout_toRightOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_toStartOf="@+id/id"
+        android:layout_toLeftOf="@+id/id"
+        android:layout_toEndOf="@+id/image"
+        android:layout_toRightOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_record_fab"

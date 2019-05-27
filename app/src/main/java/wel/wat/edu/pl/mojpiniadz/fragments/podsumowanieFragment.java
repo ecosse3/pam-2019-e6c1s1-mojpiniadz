@@ -1,4 +1,4 @@
-package wel.wat.edu.pl.mojpiniadz;
+package wel.wat.edu.pl.mojpiniadz.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import wel.wat.edu.pl.mojpiniadz.R;
 
 
 public class podsumowanieFragment extends Fragment {

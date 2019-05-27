@@ -1,4 +1,4 @@
-package wel.wat.edu.pl.mojpiniadz;
+package wel.wat.edu.pl.mojpiniadz.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import wel.wat.edu.pl.mojpiniadz.R;
+import wel.wat.edu.pl.mojpiniadz.activities.AddRecordActivity;
 
 
 public class wydatkiFragment extends Fragment {

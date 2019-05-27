@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Set_PINActivity">
+    tools:context=".activities.Set_PINActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,20 +9,20 @@
         android:roundIcon="@mipmap/ic_apk_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddRecordActivity"></activity>
+        <activity android:name=".activities.AddRecordActivity"></activity>
         <activity
-            android:name=".PersonalDataActivity"
-            android:parentActivityName=".SettingsActivity" />
+            android:name=".activities.PersonalDataActivity"
+            android:parentActivityName=".activities.SettingsActivity" />
         <activity
-            android:name=".Set_PINActivity"
-            android:parentActivityName=".SettingsActivity" />
+            android:name=".activities.Set_PINActivity"
+            android:parentActivityName=".activities.SettingsActivity" />
         <activity
-            android:name=".CategoryActivity"
-            android:parentActivityName=".SettingsActivity" />
+            android:name=".activities.CategoryActivity"
+            android:parentActivityName=".activities.SettingsActivity" />
         <activity
-            android:name=".CurrencyActivity"
-            android:parentActivityName=".SettingsActivity" />
-        <activity android:name=".MainActivity">
+            android:name=".activities.CurrencyActivity"
+            android:parentActivityName=".activities.SettingsActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,11 +30,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SettingsActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".activities.SettingsActivity"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
-            android:name=".AboutActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".activities.AboutActivity"
+            android:parentActivityName=".activities.MainActivity" />
     </application>
 
 </manifest>
