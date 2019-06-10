@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_apk_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.record.AddRecordActivity"></activity>
+        <activity android:name=".activities.EnterPasswordActivity"></activity>
+        <activity android:name=".activities.PasswordActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CreatePasswordActivity" />
+        <activity android:name=".activities.record.AddRecordActivity" />
         <activity
             android:name=".activities.PersonalDataActivity"
             android:parentActivityName=".activities.SettingsActivity" />
@@ -22,13 +31,7 @@
         <activity
             android:name=".activities.CurrencyActivity"
             android:parentActivityName=".activities.SettingsActivity" />
-        <activity android:name=".activities.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".activities.MainActivity"/>
         <activity
             android:name=".activities.SettingsActivity"
             android:parentActivityName=".activities.MainActivity" />
