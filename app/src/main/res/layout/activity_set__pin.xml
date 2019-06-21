@@ -10,46 +10,79 @@
 
     <TextView
         android:id="@+id/textView6"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:text="Podaj hasło: " />
+
     <EditText
         android:id="@+id/old_pass"
         android:layout_width="match_parent"
-        android:inputType="numberPassword"
-        android:maxLength="4"
         android:layout_height="wrap_content"
-        android:hint="password"/>
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="password"
+        android:inputType="numberPassword"
+        android:maxLength="4" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Podaj nowe hasło: "/>
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Podaj nowe hasło: " />
 
     <EditText
         android:id="@+id/password_new"
         android:layout_width="match_parent"
-        android:maxLength="4"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
         android:inputType="numberPassword"
-        android:layout_height="wrap_content" />
+        android:maxLength="4" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Powtórz hasło:"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:text="Powtórz hasło:" />
 
     <EditText
         android:id="@+id/password_repeat"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
         android:inputType="numberPassword"
-        android:maxLength="4"
-        android:layout_height="wrap_content" />
+        android:maxLength="4" />
 
     <Button
         android:id="@+id/change_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dodaj"/>
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Dodaj" />
 
 
 </LinearLayout>
