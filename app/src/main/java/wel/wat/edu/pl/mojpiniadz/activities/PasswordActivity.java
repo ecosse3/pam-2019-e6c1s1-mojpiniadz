@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.EditText;
 
 public class PasswordActivity extends AppCompatActivity {
 
@@ -33,6 +34,6 @@ public class PasswordActivity extends AppCompatActivity {
                     finish();
                 }
             }
-        },2000);
+        },0);
     }
 }
