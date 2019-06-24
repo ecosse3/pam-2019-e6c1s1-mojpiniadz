@@ -10,7 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
+/*
+Ta aktywność pozwala na wpisanie hasłą i zweryfikowanie go. Jeśli jest poprawne, to zostaniemy przekierowani do
+MainActivity, jeśli nie, zostanie wyświetlony Toast informujący o błędnym haśle.
+ */
 public class EnterPasswordActivity extends AppCompatActivity {
 EditText editText;
 Button login;

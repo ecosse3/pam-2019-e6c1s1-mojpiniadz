@@ -1,5 +1,8 @@
 package wel.wat.edu.pl.mojpiniadz.activities;
-
+/*
+Ta aktywność słuzy do wyświetlenia informacji o aplikacji- do czego służy, kto ją stworzył. Podgląd znajduje się
+w activity_about.xml
+ */
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;

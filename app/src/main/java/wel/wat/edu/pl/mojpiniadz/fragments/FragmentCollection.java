@@ -1,6 +1,8 @@
 package wel.wat.edu.pl.mojpiniadz.fragments;
 
-
+/*
+Ta klasa pozwala na sterowanie fragmentami, czyli wyborze, któy aktualnie jest na ekranie naszego smartfona.
+ */
 
 
 import androidx.fragment.app.Fragment;

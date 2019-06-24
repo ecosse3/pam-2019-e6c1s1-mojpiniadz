@@ -7,6 +7,12 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.EditText;
+/*
+W tej aktywności sprawdzane jest czy stworzone zostało hasło, czy nie i odesłąnie do odpowiedniej drugiej aktywności.
+Jeśli nie zostało stworzone hasło, to zostaniemy przekierowani do CreatePasswordActivity, jeśli zostało stworzone
+to do EnterPasswordActivity. To działanie ma na celu jednokrotne wprowadzenie hasła przez użytkownika, a
+później pozwala na logowanie wykorzytsując wcześniej utworzone hasło.
+ */
 
 public class PasswordActivity extends AppCompatActivity {
 

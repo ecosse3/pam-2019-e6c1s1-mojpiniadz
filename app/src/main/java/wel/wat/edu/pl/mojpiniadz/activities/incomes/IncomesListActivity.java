@@ -17,6 +17,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+/*
+W tej aktywności przechowywana jest lista przychodów.
+ */
 
 public class IncomesListActivity extends AppCompatActivity {
 

@@ -18,7 +18,11 @@ import wel.wat.edu.pl.mojpiniadz.fragments.podsumowanieFragment;
 import wel.wat.edu.pl.mojpiniadz.fragments.wydatkiFragment;
 import wel.wat.edu.pl.mojpiniadz.fragments.zarobkiFragment;
 
-
+/*
+Znajdują się tu listy wydatków, zarobków i podsumowanie, umieszczone we fragmentach. Na raz można wyświtlić jedną, a
+sterowanie tym jest poprzez naciśnięcie przycisków. Znajduje się tu również obsługa przycisku (w aplikacji po
+prawej na dole), który służy do dodania rekordu w wydatkach lub zarobkach.
+ */
 public class MainActivity extends AppCompatActivity {
 
 

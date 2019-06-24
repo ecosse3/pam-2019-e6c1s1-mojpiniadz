@@ -8,7 +8,9 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import wel.wat.edu.pl.mojpiniadz.R;
-
+/*
+Ta aktywność daje możliwość wyboru do ktorej zakładki chcemy się przenieść. Znajdują się tu odnośniki do odpowiednich zakładek.
+ */
 
 public class SettingsActivity extends AppCompatActivity {
 

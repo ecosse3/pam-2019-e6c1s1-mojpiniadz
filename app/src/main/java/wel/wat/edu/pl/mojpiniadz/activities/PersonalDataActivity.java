@@ -11,6 +11,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import wel.wat.edu.pl.mojpiniadz.R;
+/*
+Ta aktywność służy do wyboru nazwy naszego użytkownika, która potem używana jest do powitania podczas logowania.
+Zostałą stworzona przez SharedPreferences. Zostały tu stworzone dwie metody: DisplayName i SaveName,
+które służą odpowiednio do wyświetlania imienia w odpowiednich TextView oraz do zapisu aktualnego imienia.
+Po zmianie imienia tylko nowe zostaje pamiętane.
+ */
 
 public class PersonalDataActivity extends AppCompatActivity {
 
@@ -26,9 +32,6 @@ public class PersonalDataActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_data);
-
-//        getSupportActionBar().setTitle("Dane użytkownika");
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         editText1=(EditText)findViewById(R.id.add_name);
         add=(Button)findViewById(R.id.add_personal_data);

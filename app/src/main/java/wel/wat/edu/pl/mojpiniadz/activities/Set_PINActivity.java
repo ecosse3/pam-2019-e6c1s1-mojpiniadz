@@ -12,7 +12,11 @@ import android.widget.Toast;
 
 import wel.wat.edu.pl.mojpiniadz.R;
 import wel.wat.edu.pl.mojpiniadz.activities.incomes.IncomesListActivity;
+/*
+Ta atywność pozwala na zmianę dotychczasowego pinu. Żeby go zmienić należy wpisać obecny pin, później
+nowy i powtórzyć. Jeśli któryś z warunków nie zostanie spełniony nie nastąpi zmiana pinu.
 
+ */
 public class Set_PINActivity extends AppCompatActivity {
 EditText pass,oldpass,pass2;
 Button add;

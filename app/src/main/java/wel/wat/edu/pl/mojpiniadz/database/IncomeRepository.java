@@ -6,7 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 
 import java.util.List;
-
+/*
+Ta klasa służy do deklaracji DAO, deklaracji i inicjalizacji baz danych, inicjalizacji DAO oraz do wypisania metod.
+ */
 class IncomeRepository {
     private LiveData<List<Income>> allIncomes;
 

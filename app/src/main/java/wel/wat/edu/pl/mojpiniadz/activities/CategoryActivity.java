@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import wel.wat.edu.pl.mojpiniadz.R;
-
+/*
+Ta aktywność daje możliwość zmieniania i dodawania kategorii, w których będziemy umieszczać nasze wpisy.
+ */
 public class CategoryActivity extends AppCompatActivity {
 
     @Override

@@ -15,7 +15,10 @@ import wel.wat.edu.pl.mojpiniadz.database.Income;
 import wel.wat.edu.pl.mojpiniadz.database.IncomeViewModel;
 
 public class AddRecordActivity extends AppCompatActivity {
-
+/*
+Ta aktywność została stworzona do tworzenia rekordów. Jest stworzona jedna do wydatków i zarobków- wybór gdzie zostanie zapisana
+następuje po wyborze odpowiedniego przycisku klasyfikującego (Wydatki, Zarobki).
+ */
     IncomeViewModel incomeViewModel;
 
     @Override

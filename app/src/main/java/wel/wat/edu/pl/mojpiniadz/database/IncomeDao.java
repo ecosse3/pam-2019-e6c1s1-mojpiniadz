@@ -7,6 +7,9 @@ import androidx.room.Insert;
 import androidx.room.Query;
 
 import java.util.List;
+/*
+Tworzenie Dao- podstawowych funkcji możliwych do używania na naszej bazie danych.
+ */
 
 @Dao
 public interface IncomeDao {

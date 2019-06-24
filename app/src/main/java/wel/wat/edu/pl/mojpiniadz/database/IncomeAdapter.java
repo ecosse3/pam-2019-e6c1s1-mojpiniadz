@@ -11,7 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
-
+/*
+Klasa IncomeAdapter służy do wczytywania widoków, wczytuje jeden wiersz, później tworzy obiekt ViewHolder, który
+przechowuje odwołania.
+ */
 public class IncomeAdapter extends RecyclerView.Adapter<IncomeAdapter.ViewHolder> {
 
     private List<Income> incomes;

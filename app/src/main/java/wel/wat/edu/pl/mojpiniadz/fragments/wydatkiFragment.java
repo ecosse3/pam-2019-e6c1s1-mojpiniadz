@@ -14,7 +14,11 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import wel.wat.edu.pl.mojpiniadz.R;
 import wel.wat.edu.pl.mojpiniadz.activities.record.AddRecordActivity;
 
-
+/*
+Ten fragment służy do wyświetlania wcześniej dodanych wydatków jeden pod drugim. Miały zostać wprowadzone
+filtry tak, aby móc sterować widokiem dodania odpowiednich pól (dzień, tydzień, miesiąc) ale nie udało się
+tego zrobić.
+ */
 public class wydatkiFragment extends Fragment {
 
     public wydatkiFragment() {

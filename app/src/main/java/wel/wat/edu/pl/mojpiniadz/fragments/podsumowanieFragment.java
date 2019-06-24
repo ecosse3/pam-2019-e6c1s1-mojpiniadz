@@ -22,7 +22,10 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import java.util.ArrayList;
 
 import wel.wat.edu.pl.mojpiniadz.R;
-
+/*
+Ten fragment służy do przedstawienia podsumowania zarówno wydatków jak i zarobków na osobnych wykresach
+jeden pod drugim.
+ */
 
 public class podsumowanieFragment extends Fragment {
 

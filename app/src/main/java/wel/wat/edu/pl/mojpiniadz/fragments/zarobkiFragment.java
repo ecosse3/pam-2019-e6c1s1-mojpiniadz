@@ -13,7 +13,11 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import wel.wat.edu.pl.mojpiniadz.R;
 import wel.wat.edu.pl.mojpiniadz.activities.record.AddRecordActivity;
-
+/*
+Ten fragment służy do wyświetlania wcześniej dodanych zarobków jeden pod drugim. Miały zostać wprowadzone
+filtry tak, aby móc sterować widokiem dodania odpowiednich pól (dzień, tydzień, miesiąc) ale nie udało się
+tego zrobić.
+ */
 
 public class zarobkiFragment extends Fragment {
 
