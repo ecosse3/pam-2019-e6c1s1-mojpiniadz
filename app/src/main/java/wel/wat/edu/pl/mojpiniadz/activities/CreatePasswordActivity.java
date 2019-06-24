@@ -10,6 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+/*
+Ta aktywność pozwala tworzyć hasło i zapamiętuje je wykorzystując SharedPReferences. Zostaje wywołana tylko raz.
+ */
 
 public class CreatePasswordActivity extends AppCompatActivity {
 

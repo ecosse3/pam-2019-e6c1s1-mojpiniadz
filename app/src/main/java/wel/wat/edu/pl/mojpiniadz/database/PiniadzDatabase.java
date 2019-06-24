@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase;
 /*
 Baza danych PiniadzBatabase.
  */
-@Database(entities = {Income.class}, version = 1)
+@Database(entities = {Income.class, Expense.class, Category.class}, version = 1)
 public abstract class PiniadzDatabase extends RoomDatabase {
 
     private static PiniadzDatabase INSTANCE;
@@ -27,5 +27,7 @@ public abstract class PiniadzDatabase extends RoomDatabase {
     }
 
     public abstract IncomeDao incomeDao();
+    public abstract ExpenseDao expenseDao();
+    public abstract CategoryDao categoryDao();
 
 }
